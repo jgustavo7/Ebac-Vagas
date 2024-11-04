@@ -1,12 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
-import type { Theme } from './Themes/light'
 import styled from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  :root {
-    --cor-principal: ${(props) => (props.theme as Theme).corPrincipal};
-    --cor-secundaria: ${(props) => (props.theme as Theme).corSecundaria};
-  }
 
   * {
   margin: 0;
@@ -18,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   padding-bottom: 120px;
-  background-color:  ${(props) => (props.theme as Theme).corDeFundo};
+  background-color: #000;
 }
 
 .container {
@@ -33,9 +28,9 @@ body {
 `
 
 export const Botao = styled.button`
-border: 1px solid var(--cor-principal);
-background-color: var(--cor-secundaria);
-color: var(--cor-principal);
+border: 1px solid;
+background-color: #fff;
+color: #222222;
 padding: 16px;
 transition: all ease 0.3s;
 border-radius: 8px;
@@ -43,8 +38,8 @@ margin-top: 8px;
 cursor: pointer;
 
 &:hover {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  background-color: #fff;
+  color: #000;
 `
 
 export default GlobalStyle
