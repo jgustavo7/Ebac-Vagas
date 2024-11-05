@@ -15,12 +15,12 @@ export const Form = styled.form`
 
 export const Botao = styled.button`
    {
-    background-color: var(--cor-principal);
-    border: 1px solid var(--cor-principal);
+    background-color: #fff;
+    border: 1px solid red;
     height: 40px;
     padding: 0 16px;
     font-size: 18px;
-    color: var(--cor-secundaria);
+    color: #fff;
     margin-left: 8px;
     cursor: pointer;
   }
@@ -30,8 +30,11 @@ export const Botao = styled.button`
 `
 
 export const Campo = styled.input`
-  padding: 0 16px;
-  outline-color: var(--cor-principal);
+  padding: 4px;
+  margin: 24px;
+  width: 900px;
+  margin-left: 4px;
+  outline-color: #fff;
   @media (max-width: 768px) {
     padding: 10px 16px;
     margin-bottom: 10px;

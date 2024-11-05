@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const VagaWrapper = styled.li`
-  border: 1px solid var(--cor-primaria);
+  border: 1px solid #000;
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
   padding: 16px;

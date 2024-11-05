@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   padding-bottom: 120px;
-  background-color: #000;
+  background-color: #273c75;
 }
 
 .container {
@@ -31,10 +31,11 @@ export const Botao = styled.button`
 border: 1px solid;
 background-color: #fff;
 color: #222222;
-padding: 16px;
+padding: 6px;
 transition: all ease 0.3s;
 border-radius: 8px;
 margin-top: 8px;
+margin-right: 4px;
 cursor: pointer;
 
 &:hover {
