@@ -19,10 +19,10 @@ type Vaga = {
 const vagas = [
   {
     id: 1,
-    titulo: 'Desenvolvedor front-end',
-    localizacao: 'remoto',
-    nivel: 'junior',
-    modalidade: 'clt',
+    titulo: 'Desenvolvedor Front-End',
+    localizacao: 'Remoto',
+    nivel: 'Junior',
+    modalidade: 'CLT',
     salarioMin: 3000,
     salarioMax: 4500,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
@@ -30,62 +30,52 @@ const vagas = [
   {
     id: 2,
     titulo: 'Desenvolvedor NodeJS',
-    localizacao: 'remoto',
-    nivel: 'pleno',
-    modalidade: 'pj',
+    localizacao: 'Hibrido - São Paulo-SP',
+    nivel: 'Pleno',
+    modalidade: 'PJ',
     salarioMin: 5000,
     salarioMax: 6500,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
     id: 3,
-    titulo: 'Desenvolvedor fullstack',
-    localizacao: 'remoto',
-    nivel: 'pleno',
-    modalidade: 'pj',
-    salarioMin: 4000,
-    salarioMax: 6000,
+    titulo: 'Desenvolvedor Fullstack',
+    localizacao: 'Presencial - Rio de Janeiro - RJ',
+    nivel: 'Senior',
+    modalidade: 'PJ',
+    salarioMin: 7000,
+    salarioMax: 10000,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
     id: 4,
-    titulo: 'Designer de interfaces',
-    localizacao: 'remoto',
-    nivel: 'junior',
-    modalidade: 'clt',
+    titulo: 'Designer Grafico',
+    localizacao: 'Remoto',
+    nivel: 'Junior',
+    modalidade: 'CLT',
     salarioMin: 4000,
     salarioMax: 5000,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
     id: 5,
-    titulo: 'Desenvolvedor front-end',
-    localizacao: 'remoto',
-    nivel: 'senior',
-    modalidade: 'clt',
-    salarioMin: 7000,
-    salarioMax: 8000,
+    titulo: 'Desenvolvedor Back-End',
+    localizacao: 'Hibrido - São Paulo - SP',
+    nivel: 'Senior',
+    modalidade: 'PJ',
+    salarioMin: 8000,
+    salarioMax: 10000,
     requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   },
   {
     id: 6,
-    titulo: 'Desenvolvedor front-end para projeto internacional',
-    localizacao: 'remoto',
-    nivel: 'senior',
-    modalidade: 'pj',
+    titulo: 'Desenvolvedor Front-End - Internacional',
+    localizacao: 'Remoto',
+    nivel: 'Senior',
+    modalidade: 'PJ',
     salarioMin: 12000,
     salarioMax: 15000,
-    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
-  },
-  {
-    id: 7,
-    titulo: 'Desenvolvedor front-end',
-    localizacao: 'São Paulo/SP',
-    nivel: 'junior',
-    modalidade: 'clt',
-    salarioMin: 4000,
-    salarioMax: 5000,
-    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
+    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Inglês Intermediario']
   }
 ]
 
@@ -117,4 +107,4 @@ const ListaVagas = () => {
   )
 }
 
-export default ListVagas
+export default ListaVagas

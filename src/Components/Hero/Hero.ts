@@ -4,11 +4,12 @@ export const Form = styled.form`
    {
     height: 360px;
     width: 100%;
-    background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
+    background-image: url('https://itforum.com.br/wp-content/uploads/2023/06/Shutterstock_1471328153.jpg');
     background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
+    margin-bottom: 32px;
 
     &::before {
       position: absolute;

@@ -2,20 +2,19 @@ import styled from 'styled-components'
 
 export const VagaWrapper = styled.li`
   border: 1px solid #000;
-  background-color: var(--cor-secundaria);
+  background-color: #fff;
   color: var(--cor-principal);
   padding: 16px;
   transition: all ease 0.3s;
-  border-radius: 8px;
+  border-radius: 32px;
 
   &:hover {
-    background-color: var(--cor-principal);
-    color: var(--cor-secundaria);
+    background-color: #487eb0;
 
     a {
-      border-color: var(--cor-principal);
-      background-color: var(--cor-secundaria);
-      color: var(--cor-principal);
+      border-color: #fff;
+      background-color: #fff;
+      color: #000;
     }
   }
 `
@@ -26,9 +25,9 @@ export const VagaTitulo = styled.h3`
 `
 
 export const VagaLink = styled.a`
-  border-color: var(--cor-principal);
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
+  border-color: none;
+  background-color: #fff;
+  color: none;
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;
