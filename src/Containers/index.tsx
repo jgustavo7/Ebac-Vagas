@@ -40,7 +40,7 @@ const vagas = [
   {
     id: 3,
     titulo: 'Desenvolvedor Fullstack',
-    localizacao: 'Presencial - Rio de Janeiro - RJ',
+    localizacao: 'Presencial - Rio de Janeiro',
     nivel: 'Senior',
     modalidade: 'PJ',
     salarioMin: 7000,
@@ -69,13 +69,13 @@ const vagas = [
   },
   {
     id: 6,
-    titulo: 'Desenvolvedor Front-End - Internacional',
+    titulo: 'Desenvolvedor Front-End',
     localizacao: 'Remoto',
     nivel: 'Senior',
     modalidade: 'PJ',
     salarioMin: 12000,
     salarioMax: 15000,
-    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Inglês Intermediario']
+    requisitos: ['HTML', 'CSS', 'JavaScript', 'jQuery']
   }
 ]
 

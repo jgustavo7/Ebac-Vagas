@@ -1,21 +1,11 @@
 import styled from 'styled-components'
 
 export const VagaWrapper = styled.li`
-  border: 1px solid #000;
-  background-color: #fff;
-  color: var(--cor-principal);
+  border: 1px solid #a7727d;
+  background-color: #f9f5e7;
+  color: #a7727d;
   padding: 16px;
-  transition: all ease 0.3s;
-  border-radius: 32px;
-
-  &:hover {
-    background-color: #487eb0;
-
-    a {
-      border-color: #fff;
-      background-color: #fff;
-      color: #000;
-    }
+  border-radius: 8px;
   }
 `
 
@@ -25,9 +15,9 @@ export const VagaTitulo = styled.h3`
 `
 
 export const VagaLink = styled.a`
-  border-color: none;
-  background-color: #fff;
-  color: none;
+  border-color: #f9f5e7;
+  background-color: #a7727d;
+  color: #f9f5e7;
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;

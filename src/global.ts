@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import styled from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -13,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   padding-bottom: 120px;
-  background-color: #273c75;
+  background-color: #fff;
 }
 
 .container {
@@ -25,22 +24,6 @@ body {
     max-width: 80%;
   }
 }
-`
-
-export const Botao = styled.button`
-border: 1px solid;
-background-color: #fff;
-color: #222222;
-padding: 6px;
-transition: all ease 0.3s;
-border-radius: 8px;
-margin-top: 8px;
-margin-right: 4px;
-cursor: pointer;
-
-&:hover {
-  background-color: #fff;
-  color: #000;
 `
 
 export default GlobalStyle

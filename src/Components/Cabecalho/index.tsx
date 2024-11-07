@@ -2,7 +2,7 @@ import { CabecalhoSite } from './Cabecalho'
 
 const Cabecalho = () => (
   <CabecalhoSite>
-    <h1>Ebac Vagas</h1>
+    <h1>EBAC Jobs</h1>
   </CabecalhoSite>
 )
 
